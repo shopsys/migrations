@@ -13,6 +13,6 @@ This bundle uses [DoctrineMigrationsBundle](https://symfony.com/doc/current/bund
 
     ```
     new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
-    new Shopsys\MigrationBundle\ShopsysMigrationBundle(),
+    new ShopSys\MigrationBundle\ShopSysMigrationBundle(),
     ```
 3. Configure `DoctrineMigrationsBundle` according to its documentation (see https://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html#configuration)
