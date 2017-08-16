@@ -32,6 +32,7 @@ class SchemaDiffFilter
             $filteredTableDiff->changedIndexes = $tableDiff->changedIndexes;
             $filteredTableDiff->renamedColumns = $tableDiff->renamedColumns;
             $filteredTableDiff->renamedIndexes = $tableDiff->renamedIndexes;
+            $filteredTableDiff->removedIndexes = $tableDiff->removedIndexes;
             $filteredTableDiff->newName = $tableDiff->newName;
 
             $filteredSchemaDiff->changedTables[] = $filteredTableDiff;
